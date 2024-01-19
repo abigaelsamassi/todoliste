@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto' ,sans-serif;
+}
+
+body{
+    background-color:#4285F4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+section{
+    background-color: #fff;
+    padding: 10PX;
+    width: 450PX;
+    border-radius: 6px ;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    overflow: hidden;
+}
+
+h1{
+    text-align: center;
+    padding: 10PX;
+}
+.parole{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+input{
+    width: 90%;
+    padding: 10px 5px;
+    height: 39px;
+    border-radius: 1px solid #f0adad ;
+    outline:0; 
+    border-radius: 6PX 0 0 6PX ;
+}
+button{
+    width: 10%;
+    font-size: 10PX;
+    height: 39PX;
+    background-color:#4285F4;
+    border: 0;
+    border-radius: 0 6PX 6PX 0;
+    color: #fff;
+
+}
+.paragraphclick{
+    background-color: #bd3c3c;
+    text-decoration: line-through;
+}
+.paragraphestyle{
+    margin: 10px 0;
+    font-size: 15PX;
+    height: 39PX;
+    border-radius: 6PX ;
+    color: #fff;
+    padding: 10PX;
+    word-break: break-all;
+    height: 100%;
+    animation: anime 0.5s linear;
+    cursor: pointer;
+    background-color:#4285F4;
+
+}
+@keyframes anime{
+    from{
+        transform: translateY(50PX);
+    }
+}
+
+.paragraphclick{
+    background-color: #bd3c3c;
+    text-decoration: line-through;
+}
